@@ -4,17 +4,17 @@
 
 | Port / Feature | Location / Type | Typical Use | Notes |
 |----------------|-----------------|-------------|--------|
-| *PORT A* | Motor Port | Connect EV3/NXT motors | Speed + direction control |
-| *PORT B* | Motor Port | Connect EV3/NXT motors | Same as A |
-| *PORT C* | Motor Port | Connect EV3/NXT motors | Same as A |
-| *PORT D* | Motor Port | Connect EV3/NXT motors | Same as A |
-| *PORT 1* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
-| *PORT 2* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
-| *PORT 3* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
-| *PORT 4* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
-| *POWER INPUT (9–12V DC)* | Barrel jack / screw terminal | External battery pack or DC adapter | Supplies power to motors + Raspberry Pi |
-| *POWER SWITCH* | Slide switch (next to power input) | Turn BrickPi board ON/OFF | Cuts main power to Pi + motors |
-
+| *Port A* | Motor Port | Connect EV3/NXT motors | Speed + direction control |
+| *Port B* | Motor Port | Connect EV3/NXT motors | Same as A |
+| *Port C* | Motor Port | Connect EV3/NXT motors | Same as A |
+| *Port D* | Motor Port | Connect EV3/NXT motors | Same as A |
+| *Port 1* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
+| *Port 2* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
+| *Port 3* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
+| *Port 4* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
+| *Power Inp (9–12V DC)* | Barrel jack / screw terminal | External battery pack or DC adapter | Supplies power to motors + Raspberry Pi |
+| *Power Switch* | Slide switch | Turn BrickPi board ON/OFF | Cuts main power to Pi + motors |
+| UART Port | 4-Pin Header on BrickPi3 Board | Serial TX/RX + Power + GND | Configurable / Available |
 ---
 
 ## BrickPi GPIO
@@ -55,8 +55,7 @@
 ## Key Points  
 - *Motors* draw power from the *9–12 V DC input*.  
 - *Sensors* get regulated 5 V/3.3 V from BrickPi.  
-- The *Power Switch** isolates the battery pack/DC input from the board & RPi.  
-- Most GPIO pins pass through BrickPi unchanged but I²C pins are shared internally.  
+- The *Power Switch* isolates the battery pack/DC input from the board & RPi.  
 - UART & SPI pins are available for use.  
 
 ---
