@@ -2,8 +2,8 @@
 
 ## Ports Overview
 
-| Port / Feature | Location / Type | Typical Use | Notes |
-|----------------|-----------------|-------------|--------|
+| Port | Type | Use | Notes |
+|------|------|-----|--------|
 | *Port A* | Motor Port | Connect EV3/NXT motors | Speed + direction control |
 | *Port B* | Motor Port | Connect EV3/NXT motors | Same as A |
 | *Port C* | Motor Port | Connect EV3/NXT motors | Same as A |
@@ -17,38 +17,40 @@
 | UART Port | 4-Pin Header on BrickPi3 Board | Serial TX/RX + Power + GND | Configurable / Available |
 ---
 
-## BrickPi GPIO
+## BrickPi3 GPIO
 
-| Pin # | Name / Function | BrickPi Usage |
-|-------|-----------------|---------------|
-| 1 (3.3 V) | 3.3 V Power | Available |
-| 2 (5 V) | 5 V Power | Available |
-| 3 (GPIO 2, SDA1) | I²C SDA | Used internally but still available |
-| 4 (5 V) | 5 V Power | Available |
-| 5 (GPIO 3, SCL1) | I²C SCL | Used internally but still available |
-| 6 (GND) | Ground | Available |
-| 7 (GPIO 4) | Free GPIO | Available |
-| 8 (GPIO 14, TXD0) | UART TX | Available |
-| 9 (GND) | Ground | Available |
-| 10 (GPIO 15, RXD0) | UART RX | Available |
-| 11 (GPIO 17) | Free GPIO | Available |
-| 12 (GPIO 18) | Free GPIO | Available |
-| 13 (GPIO 27) | Free GPIO | Available |
-| 14 (GND) | Ground | Available |
-| 15 (GPIO 22) | Free GPIO | Available |
-| 16 (GPIO 23) | Free GPIO | Available |
-| 17 (3.3 V) | 3.3 V Power | Available |
-| 18 (GPIO 24) | Free GPIO | Available |
-| 19 (GPIO 10, MOSI) | SPI MOSI | Available |
-| 20 (GND) | Ground | Available |
-| 21 (GPIO 9, MISO) | SPI MISO | Available |
-| 22 (GPIO 25) | Free GPIO | Available |
-| 23 (GPIO 11, SCLK) | SPI SCLK | Available |
-| 24 (GPIO 8, CE0) | SPI CE0 | Available |
-| 25 (GND) | Ground | Available |
-| 26 (GPIO 7, CE1) | SPI CE1 | Available |
-| 27 (GPIO 0, ID_SD) | ID EEPROM SDA | Available |
-| 28 (GPIO 1, ID_SC) | ID EEPROM SCL | Available |
+| Pin | Name / Function | Full Function |
+|-----|-----------------|---------------|
+| 1 (3.3 V) | 3.3 V Power | Power Supply 3.3 V |
+| 2 (5 V) | 5 V Power | Power Supply 5 V |
+| 3 (GPIO 2, SDA1) | I²C Data Line (SDA) | Inter-Integrated Circuit Data |
+| 4 (5 V) | 5 V Power | Power Supply 5 V |
+| 5 (GPIO 3, SCL1) | I²C Clock Line (SCL) | Inter-Integrated Circuit Clock |
+| 6 (GND) | Ground | Ground Reference |
+| 7 (GPIO 4) | General Purpose Input/Output 4 | Free GPIO |
+| 8 (GPIO 14, TXD0) | UART Transmit Data (TX) | Universal Asynchronous Receiver-Transmitter Transmit |
+| 9 (GND) | Ground | Ground Reference |
+| 10 (GPIO 15, RXD0) | UART Receive Data (RX) | Universal Asynchronous Receiver-Transmitter Receive |
+| 11 (GPIO 17) | General Purpose Input/Output 17 | Free GPIO |
+| 12 (GPIO 18) | General Purpose Input/Output 18 | Free GPIO |
+| 13 (GPIO 27) | General Purpose Input/Output 27 | Free GPIO |
+| 14 (GND) | Ground | Ground Reference |
+| 15 (GPIO 22) | General Purpose Input/Output 22 | Free GPIO |
+| 16 (GPIO 23) | General Purpose Input/Output 23 | Free GPIO |
+| 17 (3.3 V) | 3.3 V Power | Power Supply 3.3 V |
+| 18 (GPIO 24) | General Purpose Input/Output 24 | Free GPIO |
+| 19 (GPIO 10, MOSI) | SPI Master Out Slave In | Serial Peripheral Interface MOSI |
+| 20 (GND) | Ground | Ground Reference |
+| 21 (GPIO 9, MISO) | SPI Master In Slave Out | Serial Peripheral Interface MISO |
+| 22 (GPIO 25) | General Purpose Input/Output 25 | Free GPIO |
+| 23 (GPIO 11, SCLK) | SPI Clock | Serial Peripheral Interface Clock |
+| 24 (GPIO 8, CE0) | SPI Chip Enable 0 | Serial Peripheral Interface Chip Enable 0 |
+| 25 (GND) | Ground | Ground Reference |
+| 26 (GPIO 7, CE1) | SPI Chip Enable 1 | Serial Peripheral Interface Chip Enable 1 |
+| 27 (GPIO 0, ID_SD) | I²C EEPROM Data | Identification EEPROM Data |
+| 28 (GPIO 1, ID_SC) | I²C EEPROM Clock | Identification EEPROM Clock |
+| 29–40 | Standard Pi GPIO Pins | Mostly Free (see Raspberry Pi GPIO reference) |
+
 
 ---
 
