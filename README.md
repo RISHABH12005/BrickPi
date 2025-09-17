@@ -16,4 +16,4 @@ git clone https://github.com/DexterInd/BrickPi3.git
 ```bash
 sudo python3 setup.py install
 ```
-- [Error & Verificaton](https://github.com/RISHABH12005/BrickPi/blob/main/error.sh)
+- [Error & Verification](https://github.com/RISHABH12005/BrickPi/blob/main/error.sh)
