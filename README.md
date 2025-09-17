@@ -1,4 +1,5 @@
 # BrickPi
+A board that connects a RPi to LEGO Mindstorms motors & sensors allowing you to control LEGO robots via the RPi.
 
 ## Ports Overview
 
@@ -15,6 +16,7 @@
 | *Power Inp (9–12V DC)* | Barrel jack / screw terminal | External battery pack \ DC adapter | Supplies power to motors + RPi |
 | *Power Switch* | Slide switch | Turn BrickPi board ON/OFF | Main power to RPi + Motors |
 | UART Port | 4-Pin Header on BrickPi Board | Serial TX/RX + Power + GND | Configurable |
+
 ---
 
 ## BrickPi3 GPIO
