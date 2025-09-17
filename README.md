@@ -13,7 +13,7 @@
 | *Port 3* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
 | *Port 4* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
 | *Power Inp (9–12V DC)* | Barrel jack / screw terminal | External battery pack \ DC adapter | Supplies power to motors + RPi |
-| *Power Switch* | Slide switch | Turn BrickPi board ON/OFF | Cuts main power to Pi + motors |
+| *Power Switch* | Slide switch | Turn BrickPi board ON/OFF | Main power to Pi + Motors |
 | UART Port | 4-Pin Header on BrickPi3 Board | Serial TX/RX + Power + GND | Configurable |
 ---
 
