@@ -19,38 +19,36 @@
 
 ## BrickPi3 GPIO
 
-| Pin | Name / Function | Full Function |
-|-----|-----------------|---------------|
-| 1 (3.3 V) | 3.3 V Power | Power Supply 3.3 V |
-| 2 (5 V) | 5 V Power | Power Supply 5 V |
-| 3 (GPIO 2, SDA1) | I²C Data Line (SDA) | Inter-Integrated Circuit Data |
-| 4 (5 V) | 5 V Power | Power Supply 5 V |
-| 5 (GPIO 3, SCL1) | I²C Clock Line (SCL) | Inter-Integrated Circuit Clock |
-| 6 (GND) | Ground | Ground Reference |
-| 7 (GPIO 4) | General Purpose Input/Output 4 | Free GPIO |
-| 8 (GPIO 14, TXD0) | UART Transmit Data (TX) | Universal Asynchronous Receiver-Transmitter Transmit |
-| 9 (GND) | Ground | Ground Reference |
-| 10 (GPIO 15, RXD0) | UART Receive Data (RX) | Universal Asynchronous Receiver-Transmitter Receive |
-| 11 (GPIO 17) | General Purpose Input/Output 17 | Free GPIO |
-| 12 (GPIO 18) | General Purpose Input/Output 18 | Free GPIO |
-| 13 (GPIO 27) | General Purpose Input/Output 27 | Free GPIO |
-| 14 (GND) | Ground | Ground Reference |
-| 15 (GPIO 22) | General Purpose Input/Output 22 | Free GPIO |
-| 16 (GPIO 23) | General Purpose Input/Output 23 | Free GPIO |
-| 17 (3.3 V) | 3.3 V Power | Power Supply 3.3 V |
-| 18 (GPIO 24) | General Purpose Input/Output 24 | Free GPIO |
-| 19 (GPIO 10, MOSI) | SPI Master Out Slave In | Serial Peripheral Interface MOSI |
-| 20 (GND) | Ground | Ground Reference |
-| 21 (GPIO 9, MISO) | SPI Master In Slave Out | Serial Peripheral Interface MISO |
-| 22 (GPIO 25) | General Purpose Input/Output 25 | Free GPIO |
-| 23 (GPIO 11, SCLK) | SPI Clock | Serial Peripheral Interface Clock |
-| 24 (GPIO 8, CE0) | SPI Chip Enable 0 | Serial Peripheral Interface Chip Enable 0 |
-| 25 (GND) | Ground | Ground Reference |
-| 26 (GPIO 7, CE1) | SPI Chip Enable 1 | Serial Peripheral Interface Chip Enable 1 |
-| 27 (GPIO 0, ID_SD) | I²C EEPROM Data | Identification EEPROM Data |
-| 28 (GPIO 1, ID_SC) | I²C EEPROM Clock | Identification EEPROM Clock |
-| 29–40 | Standard Pi GPIO Pins | Mostly Free (see Raspberry Pi GPIO reference) |
-
+| Pins | GPIO | Name | Function |
+|------|------|------|----------|
+| 1  | GPIO 1  | MOTOR A + | Motor Port A Positive Connection |
+| 2  | GPIO 2  | MOTOR A - | Motor Port A Negative Connection |
+| 3  | GPIO 3  | MOTOR B + | Motor Port B Positive Connection |
+| 4  | GPIO 4  | MOTOR B - | Motor Port B Negative Connection |
+| 5  | GPIO 5  | MOTOR C + | Motor Port C Positive Connection |
+| 6  | GPIO 6  | MOTOR C - | Motor Port C Negative Connection |
+| 7  | GPIO 7  | MOTOR D + | Motor Port D Positive Connection |
+| 8  | GPIO 8  | MOTOR D - | Motor Port D Negative Connection |
+| 9  | GPIO 9  | SENSOR 1 + | Sensor Port 1 Positive |
+| 10 | GPIO 10 | SENSOR 1 - | Sensor Port 1 Ground |
+| 11 | GPIO 11 | SENSOR 1 SIG | Sensor Port 1 Signal (Analog/Digital) |
+| 12 | GPIO 12 | SENSOR 2 + | Sensor Port 2 Positive|
+| 13 | GPIO 13 | SENSOR 2 - | Sensor Port 2 Ground |
+| 14 | GPIO 14 | SENSOR 2 SIG | Sensor Port 2 Signal (Analog/Digital) |
+| 15 | GPIO 15 | SENSOR 3 + | Sensor Port 3 Positive |
+| 16 | GPIO 16 | SENSOR 3 - | Sensor Port 3 Ground |
+| 17 | GPIO 17 | SENSOR 3 SIG | Sensor Port 3 Signal (Analog/Digital) |
+| 18 | GPIO 18 | SENSOR 4 + | Sensor Port 4 Positive |
+| 19 | GPIO 19 | SENSOR 4 - | Sensor Port 4 Ground |
+| 20 | GPIO 20 | SENSOR 4 SIG | Sensor Port 4 Signal (Analog/Digital) |
+| 21 | GPIO 21 | UART 5V | Universal Asynchronous Receiver Transmitter 5 Volt Power |
+| 22 | GPIO 22 | UART TX | Universal Asynchronous Receiver Transmitter Transmit Data |
+| 23 | GPIO 23 | UART RX | Universal Asynchronous Receiver Transmitter Receive Data |
+| 24 | GPIO 24 | UART GND | Universal Asynchronous Receiver Transmitter Ground |
+| 25 | GPIO 25 | BP_GPIO0 | General Purpose Inp/Out 0 |
+| 26 | GPIO 26 | BP_GPIO1 | General Purpose Inp/Out 1 |
+| 27 | GPIO 27 | GND | Ground |
+| 28 | GPIO 28 | 5V | 5 Volt Power Output |
 
 ---
 
