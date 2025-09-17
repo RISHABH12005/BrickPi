@@ -5,16 +5,16 @@
 | Port | Type | Use | Notes |
 |------|------|-----|--------|
 | *Port A* | Motor Port | Connect EV3/NXT motors | Speed + direction control |
-| *Port B* | Motor Port | Connect EV3/NXT motors | Same as A |
-| *Port C* | Motor Port | Connect EV3/NXT motors | Same as A |
-| *Port D* | Motor Port | Connect EV3/NXT motors | Same as A |
+| *Port B* | Motor Port | Connect EV3/NXT motors | Speed + direction control |
+| *Port C* | Motor Port | Connect EV3/NXT motors | Speed + direction control |
+| *Port D* | Motor Port | Connect EV3/NXT motors | Speed + direction control |
 | *Port 1* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
 | *Port 2* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
 | *Port 3* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
 | *Port 4* | Sensor Port | EV3/NXT analog/digital sensors | Configurable |
-| *Power Inp (9–12V DC)* | Barrel jack / screw terminal | External battery pack or DC adapter | Supplies power to motors + Raspberry Pi |
+| *Power Inp (9–12V DC)* | Barrel jack / screw terminal | External battery pack \ DC adapter | Supplies power to motors + RPi |
 | *Power Switch* | Slide switch | Turn BrickPi board ON/OFF | Cuts main power to Pi + motors |
-| UART Port | 4-Pin Header on BrickPi3 Board | Serial TX/RX + Power + GND | Configurable / Available |
+| UART Port | 4-Pin Header on BrickPi3 Board | Serial TX/RX + Power + GND | Configurable |
 ---
 
 ## BrickPi3 GPIO
