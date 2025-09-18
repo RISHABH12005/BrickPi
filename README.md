@@ -66,6 +66,7 @@ A board that connects a RPi to LEGO Mindstorms motors & sensors allowing you to 
 ```bash
 sudo raspi-config
 ```
+- Interface Options -> Enable (I2C & SPI)
 ```bash
 sudo reboot
 ```
