@@ -17,8 +17,6 @@ A board that connects a RPi to LEGO Mindstorms motors & sensors allowing you to 
 | *Power Switch* | Slide switch | Turn BrickPi board ON/OFF | Main power to RPi + Motors |
 | UART Port | 4-Pin Header on BrickPi Board | Serial TX/RX + Power + GND | Configurable |
 
----
-
 ## BrickPi3 GPIO
 
 | Pins | GPIO | Name | Function |
@@ -52,15 +50,11 @@ A board that connects a RPi to LEGO Mindstorms motors & sensors allowing you to 
 | 27 | GPIO 27 | GND | Ground |
 | 28 | GPIO 28 | 5V | 5 Volt Power Output |
 
----
-
 ## Key Points  
 - *Motors* draw power from the *9–12 V DC input*.  
 - *Sensors* get regulated 5 V/3.3 V from BrickPi.  
 - The *Power Switch* isolates the battery pack/DC input from the board & RPi.  
 - UART & SPI pins are available for use.  
-
----
 
 ## Installation  
 ```bash
